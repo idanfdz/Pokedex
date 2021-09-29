@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.poke-logo {
+    width: 350px;
+    display: block;
+    margin: 25px auto 25px auto;
+}
+.ground {
+    background-color: #d1bfab;
+}
+.ghost {
+    background-color: #b18cc7;
+}
+.electric {
+    background-color: rgb(255, 255, 161);
+}
+.ice {
+    background-color: #82c2cf;
+}
+.bug {
+    background-color: #a0d994;
+}
+.psychic {
+    background-color: #a3acdc;
+}
+.poison {
+    background-color: #d1b4d4;
+}
+.normal {
+    background-color: #e7eaed;
+}
+.fighting {
+    background-color: #f6dca9;
+}
+.fairy {
+    background-color: #f5d7e5;
+}
+.fire {
+    background-color: #f6afaa;
+}
+.grass {
+    background-color: #a1eccd;
+}
+.rock {
+    background-color: #caaa8e;
+}
+.water {
+    background-color: #b4dbf8;
+}
+.dragon {
+    background-color: #96bfdf;
+}
+.dark {
+    background-color: #7183b5;
+}
+.steel {
+    background-color: #cbccd8;
+}
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 3rem 0.5rem;
+}
+.pokemon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.all-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.thumb-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    margin: 0.3rem;
+    border: 1px solid #efefef;
+    border-radius: 0.2rem;
+    min-width: 160px;
+    text-align: center;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+}
+
+h3 {
+    padding-top: 25px;
+    margin-bottom: 0.2rem; 
+    text-transform: capitalize;
+}
+.number small{
+    font-weight: bold;
+    font-size: 15px;
+}
+.thumb-container .number {
+    border-radius: 1rem;
+    padding: 0.2rem 0.4rem;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.thumb-container img {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top:30px;
+    
+}
+.thumb-container small {
+    text-transform: capitalize;
+}
+.detail-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.detail-wrapper button {
+    color: rgb(22, 22, 22);
+    padding: .5rem;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+.load-more {
+    background: #f5f5f5 linear-gradient(#f5f5f5, #f1f1f1) repeat-x;
+    border-radius: 2px;
+    border: 1px solid #c6c6c6;
+    color: #444;
+    padding: 0.5rem 1.5rem;
+    min-width: 50%;
+    margin-top: 1rem;
+}
+
+.circle{
+    background:rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    margin-top: 10px;
+    width:120px;
+    height:120px;
+    position: absolute;
+    z-index: 0;
+}
+
+.search-container{
+    display: flex;
+    margin: 0px auto;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.searchbar{
+    background: #fff;
+    margin-right: 20px;
+}
+
+.searchbar input{
+    /* padding: 10px; */
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.25);
+    border-radius: 3px;
+    border: none;
+    height: 48px;
+    padding-left: 10px;
+}
+.searchbar input:focus{
+    outline: none;
+}
+
+.searchbar-btn{
+    background-color: #363636;
+    border: none;
+    border-radius: 10px;
+    height: 54px;
+    color: #fff;
+    padding: 10px 12px;
+}
+
+.headerPokedex{
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.pagi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagi button{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.h2{
+    height: 100%;
+    padding-top: 0px;
+    padding-bottom: 13px;
+}
+.prev{
+    width: 40px;
+}
+
+.next{
+    width: 40px;
+    transform: scaleX(-1);
+}
